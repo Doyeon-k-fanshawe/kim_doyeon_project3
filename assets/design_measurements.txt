@@ -1,0 +1,11 @@
+For example
+
+Main navigation Box:
+40px wide x 20px high
+
+Product Image Box:
+35px wide x 45px high
+
+Header:
+Margin top - 40px
+Padding Bottom - 40px
