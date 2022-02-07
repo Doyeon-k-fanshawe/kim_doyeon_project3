@@ -1,2 +1,300 @@
 @charset "UTF-8";
 /* CSS Document */
+
+/* basic reset */
+/* browsers have build in values for elements so we'll reset a few things to zero */
+
+div, p, body, header, footer, section, article, nav {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* General Elements */
+
+.allElement {
+  margin-left: 120px;
+  margin-right: 120px;
+}
+
+#container {
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+p {
+  color: #fff;
+  line-height: 100px;
+  background: #000;
+  text-align: center;
+  margin: 0;
+}
+
+h1, h2, h3 {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+
+.marginT {
+  margin-top: 5em;
+}
+
+.marginT2 {
+  margin-top: 3em;
+}
+
+.marginBt {
+  margin-bottom: 5em;
+}
+
+.marginBt2 {
+  margin-bottom: 3em;
+}
+
+.marginTb {
+  margin-top: 8em;
+  margin-bottom: 8em;
+}
+
+.marginTb2 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
+.bgColor {
+  background-color: skyblue;
+}
+
+/* Header */
+
+#head {
+  background-color: gray;
+}
+
+#headIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.headSNS {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-right: 5px;
+  line-height: 30px;
+}
+
+.headSNS a {
+  text-decoration: none;
+  color: white;
+}
+
+.lastIcon {
+  width: 30px;
+  height: 30px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  line-height: 30px;
+}
+
+.lastIcon a {
+  text-decoration: none;
+  color: white;
+}
+
+#headNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+
+#headNav .mainNavi {
+  width: 60px;
+  height: 100px;
+  text-align: center;
+}
+
+#headNav .mainNavi a {
+  line-height: 120px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+#headNav .mainLogo {
+  width: 100px;
+  height: 120px;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+#headNav .mainLogo a {
+  line-height: 120px;
+  text-decoration: none;
+  color: white;
+  font-size: 25px;
+}
+
+/* hero */
+
+#heroImage {
+  width: 100%;
+  height: 520px;
+  margin-bottom: 5em;
+}
+
+#heroImage p {
+  width: 100%;
+  height: 300px;
+  line-height: 600px;
+}
+
+/* Page Main, Section 1 */
+
+#fan h2 {
+  width: 45%;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 1.5em;
+  margin-left: 330px;
+  font-size: 30px;
+}
+
+#fanFav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fanBeer {
+  width: 280px;
+  height: 500px;
+  margin-bottom: 2em;
+}
+
+.fanBeer p {
+  width: 280px;
+  height: 280px;
+  line-height: 500px;
+}
+
+#fanFavText {
+  display: flex;
+  justify-content: space-between;
+}
+
+.fanBeerText {
+  width: 280px;
+  height: 80px;
+}
+
+.fanBeerText p {
+  width: 280px;
+  height: 40px;
+  line-height: 80px
+}
+
+/* Page Main, Section 2 */
+
+#service h2 {
+  width: 45%;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 1.5em;
+  margin-left: 330px;
+  font-size: 30px;
+}
+
+.opening {
+  width: 100%;
+  height: 300px;
+}
+
+.opening p {
+  width: 100%;
+  height: 300px;
+  line-height: 300px;
+}
+
+.map {
+  width: 100%;
+  height: 400px;
+}
+
+.map p {
+  width: 100%;
+  height: 400px;
+  line-height: 400px;
+}
+
+.mapInfo {
+  background-color: gray;
+  position: absolute;
+  top: 2363px;
+  right: 120px;
+  width: 300px !important;
+  height: 200px !important;
+  line-height: 200px !important;
+}
+
+/* Footer */
+
+#mainFooter {
+  background-color: gray;
+}
+
+#footerNav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 150px;
+  margin-right: 150px;
+}
+
+.footerLeft {
+  width: 220px;
+  height: 350px;
+}
+
+.footerLeft p {
+  width: 220px;
+  height: 350px;
+  line-height: 350px;
+}
+
+.footerRight {
+  width: 300px;
+  height: 200px;
+}
+
+.footerRight p {
+  width: 300px;
+  height: 200px;
+  line-height: 200px;
+}
+
+.copyright {
+  margin-left: 150px;
+  margin-right: 150px;
+  height: 50px;
+}
+
+.copyright p {
+  width: 100%;
+  height: 50px;
+  line-height: 50px
+}
