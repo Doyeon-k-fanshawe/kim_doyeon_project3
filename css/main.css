@@ -1,20 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
 
-/* basic reset */
-/* browsers have build in values for elements so we'll reset a few things to zero */
-
-div, p, body, header, footer, section, article, nav {
-  margin: 0;
-  padding: 0;
-}
-
-img {
-  border: none;
-  margin: 0;
-  padding: 0;
-}
-
 /* General Elements */
 
 .allElement {
@@ -58,6 +44,9 @@ h1, h2, h3 {
 
 .marginBt2 {
   margin-bottom: 3em;
+}
+.marginBt3 {
+  margin-bottom: 1em;
 }
 
 .marginTb {
@@ -152,12 +141,6 @@ h1, h2, h3 {
 
 /* hero */
 
-#heroImage {
-  width: 100%;
-  height: 520px;
-  margin-bottom: 5em;
-}
-
 #heroImage p {
   width: 100%;
   height: 300px;
@@ -165,14 +148,19 @@ h1, h2, h3 {
 }
 
 /* Page Main, Section 1 */
+#fan {
+  padding-bottom: 5em;
+  padding-top: 5em;
+  background-color: skyblue;
+}
 
 #fan h2 {
   width: 45%;
   height: 80px;
   line-height: 80px;
   margin-bottom: 1.5em;
-  margin-left: 330px;
-  font-size: 30px;
+  margin-left: 320px;
+  font-size: 40px;
 }
 
 #fanFav {
@@ -180,26 +168,15 @@ h1, h2, h3 {
   justify-content: space-between;
 }
 
-.fanBeer {
-  width: 280px;
-  height: 500px;
-  margin-bottom: 2em;
-}
-
 .fanBeer p {
   width: 280px;
-  height: 280px;
+  height: 250px;
   line-height: 500px;
 }
 
 #fanFavText {
   display: flex;
   justify-content: space-between;
-}
-
-.fanBeerText {
-  width: 280px;
-  height: 80px;
 }
 
 .fanBeerText p {
@@ -210,41 +187,35 @@ h1, h2, h3 {
 
 /* Page Main, Section 2 */
 
+
 #service h2 {
   width: 45%;
   height: 80px;
   line-height: 80px;
+  margin-top: 2em;
   margin-bottom: 1.5em;
-  margin-left: 330px;
-  font-size: 30px;
-}
-
-.opening {
-  width: 100%;
-  height: 300px;
+  margin-left: 320px;
+  font-size: 40px;
 }
 
 .opening p {
   width: 100%;
-  height: 300px;
-  line-height: 300px;
-}
-
-.map {
-  width: 100%;
   height: 400px;
+  line-height: 400px;
+  margin-bottom: 2em;
 }
 
 .map p {
   width: 100%;
-  height: 400px;
-  line-height: 400px;
+  height: 500px;
+  line-height: 500px;
+  margin-bottom: 5em;
 }
 
 .mapInfo {
   background-color: gray;
   position: absolute;
-  top: 2363px;
+  top: 2303px;
   right: 120px;
   width: 300px !important;
   height: 200px !important;
@@ -265,20 +236,10 @@ h1, h2, h3 {
   margin-right: 150px;
 }
 
-.footerLeft {
-  width: 220px;
-  height: 350px;
-}
-
 .footerLeft p {
   width: 220px;
   height: 350px;
   line-height: 350px;
-}
-
-.footerRight {
-  width: 300px;
-  height: 200px;
 }
 
 .footerRight p {
@@ -297,4 +258,61 @@ h1, h2, h3 {
   width: 100%;
   height: 50px;
   line-height: 50px
+}
+
+/* Home Page, Section 1 */
+
+#aboutUs {
+  padding-bottom: 5em;
+  padding-top: 5em;
+  background-color: skyblue;
+}
+
+#aboutUs h2 {
+  width: 45%;
+  height: 80px;
+  line-height: 80px;
+  margin-bottom: 1.5em;
+  margin-left: 320px;
+  font-size: 40px;
+}
+
+.aboutText p {
+  width: 100%;
+  height: 450px;
+  line-height: 450px;
+}
+
+/* Home page, Section 2 */
+
+#faq h2 {
+  width: 45%;
+  height: 80px;
+  line-height: 80px;
+  margin-top: 2em;
+  margin-bottom: 1.5em;
+  margin-left: 320px;
+  font-size: 40px;
+}
+
+.faqQuestion {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 10px;
+}
+
+.faqQuestion p {
+  text-align: left;
+  padding-left: 5em;
+
+}
+
+.faqQuestionLast {
+  width: 100%;
+  height: 100px;
+}
+
+.faqQuestionLast p {
+  text-align: left;
+  padding-left: 5em;
 }
